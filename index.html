@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anthony Chukwuemeka Stephen — Data Analyst in Training</title>
+  <meta name="description" content="Anthony Chukwuemeka Stephen — Computer Science graduate transitioning into data analytics, with real-world experience in community growth, crypto ecosystems, and digital strategy." />
+
+  <!-- ===========================================================
+       FONTS
+       Space Grotesk  -> headings / display
+       IBM Plex Sans  -> body copy
+       IBM Plex Mono  -> labels, stats, eyebrows (the "data" voice)
+       To swap fonts: change the <link> below AND the --font-* vars
+       in css/style.css
+  ============================================================ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Skip link for keyboard / screen-reader users -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Scroll progress indicator (thin bar under the nav) -->
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- ===========================================================
+       NAVIGATION
+  ============================================================ -->
+  <header class="site-header" id="siteHeader">
+    <nav class="nav" aria-label="Primary">
+      <a href="#hero" class="nav-logo" aria-label="Back to top">
+        <span class="logo-mark">AS<span class="logo-dot" aria-hidden="true"></span></span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#cv">CV</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ===========================================================
+         HERO
+    ============================================================ -->
+    <section class="hero" id="hero">
+      <div class="container hero-grid">
+
+        <div class="hero-text">
+          <p class="status-tag">
+            <span class="status-dot" aria-hidden="true"></span>
+            Open to Data Analyst opportunities
+          </p>
+
+          <h1 class="hero-name">Anthony Chukwuemeka Stephen</h1>
+          <p class="hero-title">Data Analyst <span class="hero-title-sub">(in training)</span> · Digital Growth &amp; Community Strategist</p>
+
+          <p class="hero-value">
+            I spent four years turning chaotic crypto and social communities into structured,
+            trust-driven systems — growing one platform from 5 to 500+ users. Now I'm applying
+            that same instinct for patterns and behaviour to data analytics, backed by hands-on
+            Python, data analysis, and AI tooling.
+          </p>
+
+          <div class="hero-ctas">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="Anthony_Stephen_CV.pdf" class="btn btn-secondary" download>Download CV</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <canvas id="signalCanvas" class="signal-canvas" width="520" height="420"></canvas>
+          <p class="signal-caption">noise <span class="signal-arrow">→</span> signal</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===========================================================
+         ABOUT
+    ============================================================ -->
+    <section class="section" id="about">
+      <div class="container">
+        <p class="eyebrow">// ABOUT</p>
+        <h2 class="section-heading">From community builder to data analyst</h2>
+
+        <div class="about-grid">
+          <div class="about-copy reveal">
+            <p>
+              I'm a Computer Science graduate (University of Nigeria, Nsukka, 2018) who spent
+              the years since building and running digital communities at the intersection of
+              crypto, social media, and growth strategy. As founder of
+              <strong>IMPACTOR'S EXCHANGE</strong>, I built a trust-first crypto exchange
+              platform from 5 to 500+ users in a market where scams are the norm — and along
+              the way, I learned to read engagement patterns, timing, and user behaviour long
+              before I had a name for it: data analysis.
+            </p>
+            <p>
+              I'm now formalising that instinct with hands-on Python, structured data analysis,
+              and AI-assisted tooling — with the goal of bringing the same evidence-based
+              thinking to teams that need to turn raw user behaviour into decisions.
+            </p>
+          </div>
+
+          <div class="strengths reveal">
+            <div class="strength-item">
+              <h3>Behavioural pattern recognition</h3>
+              <p>Years of reading engagement timing and active/inactive user behaviour across communities.</p>
+            </div>
+            <div class="strength-item">
+              <h3>Trust &amp; systems thinking</h3>
+              <p>Built onboarding, support, and retention systems from scratch in a high-scam environment.</p>
+            </div>
+            <div class="strength-item">
+              <h3>Data storytelling instinct</h3>
+              <p>Translates raw community signals into decisions non-technical stakeholders can act on.</p>
+            </div>
+            <div class="strength-item">
+              <h3>Structured communication</h3>
+              <p>Runs consistent, scheduled engagement across 10+ communities at once.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tools reveal">
+          <p class="tools-label">Tools &amp; technologies</p>
+          <ul class="tools-grid">
+            <li class="tool-chip">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="14" rx="1.5"/><path d="M7 9l3 3-3 3M13 15h4"/></svg>
+              Python
+            </li>
+            <li class="tool-chip">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="6" cy="6" r="2.2"/><circle cx="6" cy="18" r="2.2"/><circle cx="18" cy="12" r="2.2"/><path d="M6 8.2V15.8M8.2 12H15.8"/></svg>
+              Git &amp; GitHub
+            </li>
+            <li class="tool-chip">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8 4l-5 8 5 8M16 4l5 8-5 8M13 4l-2 16"/></svg>
+              VS Code
+            </li>
+            <li class="tool-chip">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3l1.8 4.6L18 9l-4.2 1.4L12 15l-1.8-4.6L6 9l4.2-1.4L12 3z"/><path d="M19 15l.9 2.1L22 18l-2.1.9L19 21l-.9-2.1L16 18l2.1-.9L19 15z"/></svg>
+              AI &amp; Prompt Engineering
+            </li>
+            <li class="tool-chip">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="1.5"/><path d="M3 9h18M3 15h18M9 3v18M15 3v18"/></svg>
+              Microsoft Office / Excel
+            </li>
+            <li class="tool-chip">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 18V8l8-5 8 5v10"/><path d="M9 18v-6h6v6"/></svg>
+              Google Workspace
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===========================================================
+         PROJECTS
+         To add/remove a project, duplicate or delete one
+         <article class="case-card"> block. Each card expands
+         in place — there is no external link by design.
+    ============================================================ -->
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <p class="eyebrow">// PROJECTS</p>
+        <h2 class="section-heading">Case studies in structure, trust, and growth</h2>
+        <p class="section-sub">Three real engagements where reading behaviour and building structure mattered more than any dashboard.</p>
+
+        <div class="case-list">
+
+          <!-- PROJECT 1 -->
+          <article class="case-card reveal">
+            <div class="case-head">
+              <div>
+                <p class="case-tag">Founder &amp; Community Manager · 2024–Present</p>
+                <h3 class="case-title">IMPACTOR'S EXCHANGE — Building trust in a scam-prone market</h3>
+              </div>
+              <button class="case-toggle" aria-expanded="false">
+                <span class="case-toggle-text">Read the full story</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+              </button>
+            </div>
+
+            <p class="case-summary">
+              <strong>Problem:</strong> crypto users had no safe, structured way to transact —
+              scams were the norm. <strong>Approach:</strong> founded a platform with onboarding,
+              support, and consistent communication systems built around trust.
+            </p>
+
+            <ul class="case-tools">
+              <li>Telegram</li><li>Discord</li><li>X (Twitter)</li><li>Community Ops</li><li>Customer Support Systems</li>
+            </ul>
+
+            <div class="case-stats">
+              <div class="stat"><span class="stat-num">5 → 500+</span><span class="stat-label">users over time</span></div>
+              <div class="stat"><span class="stat-num">100+</span><span class="stat-label">active users today</span></div>
+              <div class="stat"><span class="stat-num">Daily</span><span class="stat-label">transaction activity</span></div>
+            </div>
+
+            <div class="case-details">
+              <h4>Problem</h4>
+              <p>Cryptocurrency transactions were (and still are) a common target for scams. New
+                and experienced users alike had few reliable, structured ways to exchange assets
+                safely, which left a clear gap for a platform built around trust rather than
+                speed or hype.</p>
+              <h4>Approach</h4>
+              <p>I founded IMPACTOR'S EXCHANGE to close that gap — designing onboarding flows,
+                customer support systems, and consistent communication so every user interaction
+                felt predictable and safe. I managed brand presence and content across social
+                channels to build awareness, while running the day-to-day community and
+                transaction support myself.</p>
+              <h4>Insight</h4>
+              <p>Trust and consistency outperformed promotions as a retention lever. Users didn't
+                stay because of incentives — they stayed because the platform behaved the same
+                way every time. That pattern, visible long before I had data to back it up, is
+                what first pulled me toward formal data analysis.</p>
+            </div>
+          </article>
+
+          <!-- PROJECT 2 -->
+          <article class="case-card reveal">
+            <div class="case-head">
+              <div>
+                <p class="case-tag">Freelance Community Manager · 2023–Present</p>
+                <h3 class="case-title">Crypto Community Growth — Engagement at scale across 5–10 communities</h3>
+              </div>
+              <button class="case-toggle" aria-expanded="false">
+                <span class="case-toggle-text">Read the full story</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+              </button>
+            </div>
+
+            <p class="case-summary">
+              <strong>Problem:</strong> large crypto communities (avg. ~2,000 members) routinely
+              lose active participation as they scale. <strong>Approach:</strong> structured
+              posting schedules and moderation systems across Telegram, Discord, and X.
+            </p>
+
+            <ul class="case-tools">
+              <li>Telegram</li><li>Discord</li><li>X (Twitter)</li><li>Content Scheduling</li><li>Moderation Systems</li>
+            </ul>
+
+            <div class="case-stats">
+              <div class="stat"><span class="stat-num">5–10</span><span class="stat-label">communities managed</span></div>
+              <div class="stat"><span class="stat-num">~2,000</span><span class="stat-label">members per community, avg.</span></div>
+              <div class="stat"><span class="stat-num">↑ Active</span><span class="stat-label">participation after restructuring</span></div>
+            </div>
+
+            <div class="case-details">
+              <h4>Problem</h4>
+              <p>Crypto communities frequently grow in headcount while quietly losing active
+                participation — large member counts can mask a shrinking, disengaged core.
+                Clients needed that engagement decay reversed without simply adding more content.</p>
+              <h4>Approach</h4>
+              <p>Across 5–10 client communities, I introduced structured posting and moderation
+                schedules, standardised onboarding for new members, and ran ongoing education on
+                blockchain concepts and market updates to keep discussion substantive rather than
+                noisy.</p>
+              <h4>Insight</h4>
+              <p>Predictable communication cadence moved engagement more reliably than content
+                volume — consistency beat quantity. The clearest gains came not from posting
+                more, but from posting on a schedule members could anticipate.</p>
+            </div>
+          </article>
+
+          <!-- PROJECT 3 -->
+          <article class="case-card reveal">
+            <div class="case-head">
+              <div>
+                <p class="case-tag">Freelance Social Media Manager · 2022–Present</p>
+                <h3 class="case-title">Social Media Growth Systems — Consistency-driven growth without a dashboard</h3>
+              </div>
+              <button class="case-toggle" aria-expanded="false">
+                <span class="case-toggle-text">Read the full story</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+              </button>
+            </div>
+
+            <p class="case-summary">
+              <strong>Problem:</strong> crypto pages, betting platforms, and business brands
+              needed more visibility and interaction, with no analytics infrastructure in place.
+              <strong>Approach:</strong> consistent content strategy and active engagement across
+              multiple brand accounts.
+            </p>
+
+            <ul class="case-tools">
+              <li>Meta Business Suite</li><li>Canva</li><li>Content Calendars</li><li>Multi-Platform Campaigns</li>
+            </ul>
+
+            <div class="case-stats">
+              <div class="stat"><span class="stat-num">3 sectors</span><span class="stat-label">crypto, betting, business brands</span></div>
+              <div class="stat"><span class="stat-num">↑ Reach</span><span class="stat-label">across managed pages</span></div>
+              <div class="stat"><span class="stat-num">No formal</span><span class="stat-label">analytics tooling used — yet</span></div>
+            </div>
+
+            <div class="case-details">
+              <h4>Problem</h4>
+              <p>Clients across crypto, betting, and general business brands wanted stronger
+                visibility and audience interaction, but had no formal analytics tools in place
+                to guide decisions — growth had to be driven by judgment rather than dashboards.</p>
+              <h4>Approach</h4>
+              <p>I built and ran consistent content strategies and posting schedules, monitored
+                audience behaviour qualitatively, and coordinated campaigns across each brand's
+                platforms to keep messaging aligned and visible.</p>
+              <h4>Insight</h4>
+              <p>Consistency and active engagement reliably moved the needle even without
+                analytics tooling — and it revealed exactly the kind of gap that formal data
+                analysis is built to close. It's a direct reason I'm now building those skills.</p>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- FEATURED INSIGHT -->
+        <div class="featured-insight reveal">
+          <p class="eyebrow">// FEATURED INSIGHT</p>
+          <p class="insight-text">
+            Across every community I've run, the single strongest lever for engagement was never
+            more content. It was predictable, consistent communication. That's the same
+            principle data analysis is built on: finding the signal that actually predicts
+            behaviour, and ignoring the noise around it.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===========================================================
+         EXPERIENCE & SKILLS
+    ============================================================ -->
+    <section class="section" id="experience">
+      <div class="container">
+        <p class="eyebrow">// EXPERIENCE</p>
+        <h2 class="section-heading">Experience &amp; skills</h2>
+
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-meta">
+              <h3>Founder &amp; Community Manager</h3>
+              <p class="timeline-role">IMPACTOR'S EXCHANGE · Remote</p>
+            </div>
+            <div class="timeline-dates"><span>2024 — Present</span></div>
+            <ul class="timeline-bullets">
+              <li>Founded and grew a crypto exchange community from 5 to 500+ users by building trust-first onboarding and support systems.</li>
+              <li>Manage 5 WhatsApp communities (500+ total members), tracking timing and active/inactive behaviour to refine when and how the community is engaged.</li>
+              <li>Coordinate content, brand presence, and customer support across multiple channels.</li>
+            </ul>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-meta">
+              <h3>Crypto Community Manager</h3>
+              <p class="timeline-role">Freelance</p>
+            </div>
+            <div class="timeline-dates"><span>2023 — Present</span></div>
+            <ul class="timeline-bullets">
+              <li>Manage and moderate 5–10 crypto communities (avg. ~2,000 members each) across Telegram, Discord, and X.</li>
+              <li>Implemented structured posting and moderation schedules that measurably increased active participation.</li>
+              <li>Onboard new members and educate users on blockchain concepts and market updates.</li>
+            </ul>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-meta">
+              <h3>Social Media Manager</h3>
+              <p class="timeline-role">Freelance</p>
+            </div>
+            <div class="timeline-dates"><span>2022 — Present</span></div>
+            <ul class="timeline-bullets">
+              <li>Manage social accounts for crypto, betting, and business brand clients.</li>
+              <li>Built consistent content and posting strategies that grew engagement and reach across managed pages.</li>
+              <li>Coordinated multi-platform campaigns and maintained brand messaging consistency.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="skills-grid reveal">
+          <div class="skills-col">
+            <p class="skills-label">Technical</p>
+            <ul class="skills-list">
+              <li>Python (foundations)</li>
+              <li>Data Analysis Basics</li>
+              <li>AI / Prompt Engineering</li>
+              <li>Git &amp; GitHub</li>
+              <li>VS Code</li>
+            </ul>
+          </div>
+          <div class="skills-col">
+            <p class="skills-label">Analytical &amp; Professional</p>
+            <ul class="skills-list">
+              <li>Behavioural pattern recognition</li>
+              <li>Research &amp; analytical thinking</li>
+              <li>Problem solving</li>
+              <li>Communication &amp; stakeholder management</li>
+              <li>Project coordination</li>
+            </ul>
+          </div>
+          <div class="skills-col">
+            <p class="skills-label">Education</p>
+            <ul class="skills-list">
+              <li>B.Sc. Computer Science</li>
+              <li>University of Nigeria, Nsukka</li>
+              <li>Graduated 2018</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===========================================================
+         CV
+    ============================================================ -->
+    <section class="section section-alt" id="cv">
+      <div class="container cv-grid">
+        <div class="cv-copy reveal">
+          <p class="eyebrow">// RESUME</p>
+          <h2 class="section-heading">Get the full picture</h2>
+          <p class="section-sub">Every role, every number, one page.</p>
+          <a href="Anthony_Stephen_CV.pdf" class="btn btn-primary" download>Download CV (PDF)</a>
+        </div>
+
+        <div class="cv-preview reveal" aria-hidden="true">
+          <div class="cv-card">
+            <p class="cv-card-row cv-card-name">Anthony Chukwuemeka Stephen</p>
+            <p class="cv-card-row cv-card-title">Data Analyst (in training) · Digital Growth Strategist</p>
+            <div class="cv-card-line"></div>
+            <p class="cv-card-row"><span>Location</span><span>Lagos, Nigeria</span></p>
+            <p class="cv-card-row"><span>Education</span><span>B.Sc. Computer Science, UNN '18</span></p>
+            <p class="cv-card-row"><span>Focus</span><span>Data Analysis · Python · AI Tools</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===========================================================
+         CONTACT
+    ============================================================ -->
+    <section class="section" id="contact">
+      <div class="container">
+        <p class="eyebrow">// CONTACT</p>
+        <h2 class="section-heading">Open to data analyst roles — let's talk</h2>
+
+        <ul class="contact-grid reveal">
+          <li class="contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="M3 7l9 6 9-6"/></svg>
+            <a href="mailto:impactortony@gmail.com">impactortony@gmail.com</a>
+          </li>
+          <li class="contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 4h3l2 5-2.5 1.5a11 11 0 005 5L14 13l5 2v3a2 2 0 01-2 2A16 16 0 015 6a2 2 0 010-2z"/></svg>
+            <a href="tel:+2348122313370">+234 812 231 3370</a>
+          </li>
+          <li class="contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M7 10v7M7 7v.01M12 17v-4.5a2 2 0 014 0V17M12 10v7"/></svg>
+            <a href="https://linkedin.com/in/impactortony" target="_blank" rel="noopener">linkedin.com/in/impactortony</a>
+          </li>
+          <li class="contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 00-1.3-3.2 4.2 4.2 0 00-.1-3.2s-1.1-.3-3.5 1.3a12 12 0 00-6.2 0C6.5 2.7 5.4 3 5.4 3a4.2 4.2 0 00-.1 3.2A4.6 4.6 0 004 9.4c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>
+            <a href="https://github.com/impactortony" target="_blank" rel="noopener">github.com/impactortony</a>
+          </li>
+          <li class="contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s7-6.1 7-11.5A7 7 0 105 9.5C5 14.9 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.3"/></svg>
+            <span>Lagos State, Nigeria</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Anthony Chukwuemeka Stephen.</p>
+      <a href="#hero" class="footer-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
